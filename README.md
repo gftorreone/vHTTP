@@ -35,8 +35,8 @@ Una vez hecho ya podremos usarlo
 | url | URL del recurso al que queremos hacer la petición |
 | data | [plugins/googledrive/README.md][PlGd] |
 | responseType | Este parámetro nos va a permitir definir el tipo de respuesta devuelto por nuestra petición. Soporta:  json,text,xml y arraybuffer  |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+| onComplete | Esta función solo devolverá el contenido de la petición cuando el estado sea un 200 o un 201. Devuelve el Status y los Datos |
+| onFailed | Esta es la función que se ejecutará en el caso de que la petición no se realice o esté errónea |
 
 ## Ejemplos
 
