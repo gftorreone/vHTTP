@@ -33,7 +33,7 @@ Una vez hecho ya podremos usarlo
 | ------ | ------ |
 | method? | Tipo de petición HTTP que queremos procesar: POST,PUT,GET,DELETE,PATCH. Por defecto es GET|
 | url | URL del recurso al que queremos hacer la petición |
-| data | [plugins/googledrive/README.md][PlGd] |
+| data | Datos que deseamos enviar. Pueden ser en Texto plano, XML o JSON |
 | responseType | Este parámetro nos va a permitir definir el tipo de respuesta devuelto por nuestra petición. Soporta:  json,text,xml y arraybuffer  |
 | headers? | Este parámetro es un objeto, que permite establecer las cabeceras de la petición |
 | onComplete | Esta función solo devolverá el contenido de la petición cuando el estado sea un 200 o un 201. Devuelve el Status y los Datos |
